@@ -1,0 +1,36 @@
+{
+  "name": "fcc-timestamp",
+  "version": "1.0.0",
+  "description": "A microservice to conrvet from UTF to unix time",
+  "main": "./src/index.ts",
+  "scripts": {
+    "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/index.ts",
+    "build": "rm -rf ./build && npx tsc",
+    "build:start": "npm run build && node build/index.js"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "author": "unchainedDavid",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unchainedDavid/fcc-timestamp.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "timestamp"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.15",
+    "@types/node": "^18.11.18",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.4"
+  }
+}
