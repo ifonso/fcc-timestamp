@@ -4,7 +4,6 @@
 A microservice project for **freeCodeCamp** Back End Development certificate.
 
 ## Instalation
----
 
 Install dependencies
 ```bash
@@ -17,7 +16,6 @@ $ npm run build:start
 ```
 
 ## API Usage
----
 
 #### Get current time
 
